@@ -1,0 +1,24 @@
+{
+  "name": "efg_trailor_pilot",
+  "version": "1.0.0",
+  "description": "Pilot app for multiple image merge",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah Al Mamun",
+  "license": "ISC",
+  "dependencies": {
+    "base64-to-image": "^1.0.2",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.8.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "merge-images": "^2.0.0",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
